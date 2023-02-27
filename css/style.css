@@ -885,7 +885,7 @@ footer{
  
 }
 input:checked + label:before {
-  content: "v";
+  content: "✓";
   max-height: 14px;
   color:  #97EE3F;
   
@@ -908,7 +908,6 @@ input:disabled + label:before {
   padding: 87px 0 87px 0px;
 }
 
- /* Настольные компьютеры и ноутбуки ----------- */
  @media only screen  and (max-width: 1482px) {
   .footer__right-box{
   display: none;
