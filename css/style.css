@@ -697,12 +697,17 @@ margin-left: 87px;}
   right: 0; */
 }
 
-.faq__plus:hover ellipse, .faq__plus:active ellipse, .faq__plus:focus ellipse{
+.ui-accordion-header:hover .faq__plus ellipse, .ui-accordion-header:active .faq__plus ellipse{
   fill: var(--link-and-btn-color);
   transition: fill 300ms ease-in-out;
 
 }
-.faq__plus:hover path, .faq__plus:active path, .faq__plus:focus path{
+.ui-accordion-header:hover .faq__plus path,.ui-accordion-header:active .faq__plus path{
+
+  fill: var(--main-bg-color); 
+  transition: fill 300ms ease-in-out;
+
+}
 
   fill: var(--main-bg-color); 
   transition: fill 300ms ease-in-out;
